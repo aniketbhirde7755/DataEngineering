@@ -1,0 +1,9 @@
+dbt_project1:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: ABBV_SMDW_ENGG_BTS_511_MEDIUM
+      database: ANALYTICS_DB
+      schema: MARTS
